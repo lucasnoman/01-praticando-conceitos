@@ -51,6 +51,11 @@ module.exports = {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
         },
+        'blue-dark': 'var(--blue-dark)',
+        'blue-light': 'var(--blue-light)',
+        'purple-dark': 'var(--purple-dark)',
+        'purple-light': 'var(--purple-light)',
+        danger: 'var(--danger)',
       },
       borderRadius: {
         lg: 'var(--radius)',
@@ -70,6 +75,9 @@ module.exports = {
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
       },
     },
   },

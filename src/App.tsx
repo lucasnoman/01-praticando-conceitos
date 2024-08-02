@@ -1,7 +1,7 @@
 export function App() {
   return (
     <>
-      <p>Hello there!</p>
+      <h1 className="text-blue-dark font-bold font leading-5">Hello there!</h1>
     </>
   )
 }
